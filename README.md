@@ -17,7 +17,9 @@ To open and close the Terminal you can use the keys `Ctrl + '`
 ### Chapter 2 - Functions
 
 When writing a function it has to be in this format with the addition() at end of the function
+
 ```bash
+
 def addition():
     #Hard coded variables
     a = 10
