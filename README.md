@@ -65,14 +65,18 @@ Defaults can be overriden, they don't need to be in the same order when overridi
 
 ```bash
 *Args, **kwargs
-*args contents: allows for unlimited varaibles to be passed into a function without defining them ahead of time
+*args contents: allows for unlimited varaibles to be passed into a function without defining them ahead
+of time
+
 def add (*args):
     print(sum(args))
     add(2,3,4)
     add(2,3,4,8,184
 
 **Kwargs 
-contents: allows for unlimited keyword arguments to be passed into a function without defining them ahead of time
+contents: allows for unlimited keyword arguments to be passed into a function without defining them ahead 
+of time
+
 def applications(**kwargs):
     print(**kwargs)
 applications(name = "Jess", email = "mail@mail.com")
