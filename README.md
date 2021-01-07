@@ -88,9 +88,8 @@ application(name = "Susan", surname = "Johnson", age = 42)
 This code for this chapter can be run in the terminal which I found enables you to provide input to test the code paths.
 
 ```bash
-- if, elif, else are controll stuctures in python
-- if used by itself will only run if certain conditions are present
-- elif, runs when pre-conditions are not met, and many conditons might be met
-- else, is used to close out if, elif code block, and should cover anything else
+- 'if, elif, else are control stuctures in python'
+- 'if used by itself will only run if certain conditions are present'
+- 'elif, runs when pre-conditions are not met, and many conditons might be met'
+- 'else, is used to close out if, elif code block, and should cover anything else'
 ```
-
