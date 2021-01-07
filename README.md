@@ -29,7 +29,7 @@ def addition():
 addition()
 ```
 
-### Chapter 3
+### Chapter 3 Args, Kwargs, *args
 
 This would fail as it is missing a positional arugment.
 
