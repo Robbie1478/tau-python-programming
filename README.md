@@ -28,3 +28,53 @@ def addition():
 
 addition()
 ```
+
+### Chapter 3
+
+This would fail as it is missing a positional arugment.
+
+```bash
+def user_info(name, age, city):
+    '''This function prints name, age and city
+    fron an argument provided to the function'''
+
+    print ("{} is {} years old, from {}".format(name, age, city))
+
+# Uses positional arguments
+user_info(58, "Oklahoma City")
+```
+
+In the above instance, it gives an error in the output of `TypeError: user_info() missing 1 required positional argument: 'city'`, this is because it has a missing argument.
+
+#### Defaults
+
+You can make use of defaults so that you don't have to define them later on.
+`def user_info(name, age=0, city="Tucson"):`
+
+#### Uses default arguements in this scenario
+
+Then when you set user infor using this method, it user then name and passed in the defaults too.
+`user_info("Micah")`
+
+#### Using defaults and overriding
+
+Defaults can be overriden, they don't need to be in the same order when overriding.
+`user_info(age=56, name="Trevor")`
+
+#### *arg and **kwargs
+
+```bash
+*Args, **kwargs
+*args contents: allows for unlimited varaibles to be passed into a function without defining them ahead of time
+def add (*args):
+    print(sum(args))
+    add(2,3,4)
+    add(2,3,4,8,184
+
+**Kwargs 
+contents: allows for unlimited keyword arguments to be passed into a function without defining them ahead of time
+def applications(**kwargs):
+    print(**kwargs)
+applications(name = "Jess", email = "mail@mail.com")
+application(name = "Susan", surname = "Johnson", age = 42)
+```
