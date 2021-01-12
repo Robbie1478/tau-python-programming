@@ -93,3 +93,51 @@ This code for this chapter can be run in the terminal which I found enables you 
 - 'elif, runs when pre-conditions are not met, and many conditons might be met'
 - 'else, is used to close out if, elif code block, and should cover anything else'
 ```
+
+### Chapter 5 - Loops
+
+#### For Loops
+
+The below would print numbers 1 - 10, stopping at 11.
+
+'''bash
+for number in range(1, 11):
+    print("Number {}".format(number))
+'''
+
+##### Continue Statement
+
+This example would print the number 7 but with different text
+
+'''bash
+for number in range(1, 11):
+    if number == 7:
+        print("We're skipping number 7!")
+        continue
+    print("This is the number {}.".format(number))
+'''
+
+##### Pass Statement
+
+In this example, you wouldn't see the number 3 printed
+'''bash
+for number in range (1, 11):
+    if number == 3:
+        pass
+    else:
+        print("The number is {}.".format(number))
+'''
+
+#### While Loops
+
+In this example, it would stop at 33
+
+'''bash
+temp_f = 40
+
+while temp_f > 32:
+    print("The water is {} degress".format(temp_f))
+    temp_f -= 1
+'''
+
+We implmented a while loop into `Chapter-4-Calc.py` so that it doesn't end after 1 run through.
