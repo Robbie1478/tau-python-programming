@@ -19,7 +19,6 @@ To open and close the Terminal you can use the keys `Ctrl + '`
 When writing a function it has to be in this format with the addition() at end of the function
 
 ```bash
-
 def addition():
     #Hard coded variables
     a = 10
@@ -100,44 +99,44 @@ This code for this chapter can be run in the terminal which I found enables you 
 
 The below would print numbers 1 - 10, stopping at 11.
 
-'''bash
+```bash
 for number in range(1, 11):
     print("Number {}".format(number))
-'''
+```
 
 ##### Continue Statement
 
 This example would print the number 7 but with different text
 
-'''bash
+```bash
 for number in range(1, 11):
     if number == 7:
         print("We're skipping number 7!")
         continue
     print("This is the number {}.".format(number))
-'''
+```
 
 ##### Pass Statement
 
 In this example, you wouldn't see the number 3 printed
-'''bash
+```bash
 for number in range (1, 11):
     if number == 3:
         pass
     else:
         print("The number is {}.".format(number))
-'''
+```
 
 #### While Loops
 
 In this example, it would stop at 33
 
-'''bash
+```bash
 temp_f = 40
 
 while temp_f > 32:
     print("The water is {} degress".format(temp_f))
     temp_f -= 1
-'''
+```
 
 We implmented a while loop into `Chapter-4-Calc.py` so that it doesn't end after 1 run through.
