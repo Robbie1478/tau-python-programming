@@ -5,8 +5,8 @@
 
 ## Requirements for this course
 
-- Python must be installed 3.8.1 - Python can be [downloaded](https://www.python.org/downloads/) from here
-- Pycharm community editon - [Can be downloaded here](https://www.jetbrains.com/pycharm/download/#section=windows)
+- Python must be installed 3.8.1 - Python can be downloaded from [here](https://www.python.org/downloads/)
+- Pycharm community editon - Pychharm can be downloaded [here](https://www.jetbrains.com/pycharm/download/#section=windows)
 
 ### Chapter 1 - Variables, Data and Basics
 
