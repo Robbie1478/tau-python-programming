@@ -120,6 +120,7 @@ for number in range(1, 11):
 ##### Pass Statement
 
 In this example, you wouldn`t see the number 3 printed
+
 ```bash
 for number in range (1, 11):
     if number == 3:
@@ -145,6 +146,7 @@ We implmented a while loop into `Chapter-4-Calc.py` so that it doesn`t end after
 ### Chapter 6 - Lists
 
 Uses basic lists and prints them out
+
 ```bash
 fruits =["Peaches", "Pears", "Apples"]
 years = [3, "1998", 2.5, 987, "1994"]
