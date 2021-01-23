@@ -12,7 +12,7 @@
 
 To see the out the file for chapter 1, you can click the play button towards the top right of the vs code window, this will output it in the output window.
 
-To open and close the Terminal you can use the keys '`Ctrl + `'
+To open and close the Terminal you can use the keys `Ctrl + ``
 
 ### Chapter 2 - Functions
 
